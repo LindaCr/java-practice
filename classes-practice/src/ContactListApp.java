@@ -8,7 +8,7 @@ public class ContactListApp {
 		System.out.println();
 		Scanner sc=new Scanner(System.in);
 		
-		
+		//while loop practice
 		String choice="y";
 		while (choice.equalsIgnoreCase("y")) {
 			

@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ForLoopPractice {
 
+	//arrow challenge
 	public static void main(String[] args) {
 		System.out.println("Hola");
 		System.out.println();

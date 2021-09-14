@@ -86,6 +86,7 @@ public class MathPracticeApp {
 		BigDecimal salesTax= totalBeforeTax.multiply(SALES_TAX_PCT);
 		BigDecimal total= totalBeforeTax.add(salesTax);
 		
+		
 		System.out.println("Subtotal: \t"+currency.format(subtotal));
 		System.out.println("Discount Pct: \t"+pct.format(discountPct));
 		System.out.println("Discount Amt: \t"+currency.format(discountAmt));

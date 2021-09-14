@@ -6,6 +6,7 @@ public class MPHCalculatorApp {
 		System.out.println("Welcome to the Travel Time Calculator");
 		System.out.println();
 		
+		//use scanner to read input
 		Scanner sc= new Scanner(System.in);
 		
 		String choice= "y";

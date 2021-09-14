@@ -15,7 +15,7 @@ public class DiceRollApp {
 		String choice="y";
 		while (choice.equalsIgnoreCase("y")) {
 			
-			
+			//the *n represents the amount of numbers to include in the random choices
 			die1= (int) (Math.random()*6)+1;
 			die2= (int) (Math.random()*6)+1;
 			int total= die1+die2;

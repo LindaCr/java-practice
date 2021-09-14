@@ -7,7 +7,7 @@ public class Contact {
 	private String email;
 	private String phone;
 	
-	
+	//constructor
 	public Contact(String firstName, String lastName, String email, String phone) {
 		super();
 		this.firstName = firstName;
@@ -16,7 +16,7 @@ public class Contact {
 		this.phone = phone;
 	}
 
-
+     //getters and setters
 	public String getFirstName() {
 		return firstName;
 	}

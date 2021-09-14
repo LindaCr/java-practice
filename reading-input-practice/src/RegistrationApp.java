@@ -20,7 +20,7 @@ public class RegistrationApp {
 		int birthYear= sc.nextInt();
 		System.out.println(birthYear);
 		
-		
+		//print the info out together
 		System.out.println("Welcome " + firstName+" "+lastName+ "!");
 		System.out.println("Your registration is complete.");
 		System.out.println("Your temporary password is: " +firstName+"*"+birthYear);

@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Console {
 
+	//remember to export as jar file
     private static Scanner sc = new Scanner(System.in);
 
     public static String getString(String prompt) {
